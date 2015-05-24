@@ -11,7 +11,7 @@ Additional files:
 
 ## Steps taken to Transform and Clean the initial datasets
 
-   - Step1 - Merge the training and the test datasets to create one data set
+ - Step1 - Merge the training and the test datasets to create one data set
 
 Create datasets:
   - measures: lookup dataset; contains column names, applies to test/train datasets
@@ -59,8 +59,8 @@ replace three/two dots with one dot; remove the very last dot; replace 'BodyBody
 
  - Step5 - From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject
 
-  - Create a tidy data set with the average of each variable for each activity and each subject;
-(activity name, subject id) is a key
+  - Create a tidy data set with the average of each variable for each activity and each subject
+  - (activity name, subject id) is a key
   - There is a single row for each key
   - There is a single column for each measurement
   - Save final dataset as a txt file
