@@ -11,7 +11,7 @@ Additional files:
 
 ## Steps taken to Transform and Clean the initial datasets
 
- - Step1 - Merge the training and the test datasets to create one data set
+ -- Step1 - Merge the training and the test datasets to create one data set
 
 Create datasets:
   - measures: lookup dataset; contains column names, applies to test/train datasets
@@ -35,7 +35,7 @@ eg: a bracket, hypen, comma are replaced with a dot
 
  - Step2 - Extracts only the measurements on the mean and standard deviation for each measurement
 
-  - Create a subset that includes subject_id, activity_id, and all 'mean' and 'standard deviation' variables
+  - Create a subset that includes subject_id, activity_id, and all 'mean' and 'standard deviation' variables. 
 I included all the columns with names containing 'mean' or 'std', as I believe this project is about transforming and cleaning datasets, and not about debating which measure should be included or not
   - 10299 rows, 88 columns
 
