@@ -5,9 +5,9 @@ A repository for the data scientist's course.
 
 Additional files: 
  - `CodeBook.md`
- - Script: `run_analysis.R`; to be run from the 'data' directory by submitting run_analysis()
- - Final data output: `dt_means.txt`, created by write.table function in the 'data' directory 
- - Please refer to CodeBook.md for additional information re description of dt_means.txt column names
+ - Script: `run_analysis.R`; to be run from the data/working directory by submitting run_analysis()
+ - Final data output: `dt_means.txt`, created by write.table function in the data/working directory 
+ - Please refer to the CodeBook.md for additional information re description of dt_means.txt column names
 
 ## Steps taken to Transform and Clean the initial datasets
 
