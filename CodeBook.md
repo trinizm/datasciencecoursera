@@ -2,8 +2,8 @@
 
 ## Subject and Activity
 
- - subject_id: integer, range 1:30
- - activity_name: character, values:
+ - `subject_id`: integer, range 1:30
+ - `activity_name`: character, values:
   - WALKING
   - WALKING_UPSTAIRS
   - WALKING_DOWNSTAIRS
@@ -16,7 +16,7 @@
  - All variables are the mean (prefix 'Mean') of a measurement for each subject and activity.
  - All are normalized and bounded within [-1,1]
  - The convention for variable names is:
-  - Mean{TimeOrFrequencyOrangle}{measurement}{.MeanOrStdDev}{.X,Y,Z} where:
+  - `Mean{TimeOrFrequencyOrangle}{measurement}{.MeanOrStdDev}{.X,Y,Z}` where:
   - 'Time' denotes 'time domain'
   - 'Frequency' denotes 'frequency domain'
   - 'Angle' denotes 'angular velocity'
@@ -26,89 +26,90 @@
   - 'StdDev' denotes 'standard deviation'
   - 'X,Y,Z' denotes 'triaxial along which the measurement was taken'
 
- - MeanTimeBodyAcc.Mean.X
- - MeanTimeBodyAcc.Mean.Y
- - MeanTimeBodyAcc.Mean.Z
- - MeanTimeGravityAcc.Mean.X
- - MeanTimeGravityAcc.Mean.Y
- - MeanTimeGravityAcc.Mean.Z
- - MeanTimeBodyAccJerk.Mean.X
- - MeanTimeBodyAccJerk.Mean.Y
- - MeanTimeBodyAccJerk.Mean.Z
- - MeanTimeBodyGyro.Mean.X
- - MeanTimeBodyGyro.Mean.Y
- - MeanTimeBodyGyro.Mean.Z
- - MeanTimeBodyGyroJerk.Mean.X
- - MeanTimeBodyGyroJerk.Mean.Y
- - MeanTimeBodyGyroJerk.Mean.Z
- - MeanTimeBodyAccMag.Mean
- - MeanTimeGravityAccMag.Mean
- - MeanTimeBodyAccJerkMag.Mean
- - MeanTimeBodyGyroMag.Mean
- - MeanTimeBodyGyroJerkMag.Mean
- - MeanFrequencyBodyAcc.Mean.X
- - MeanFrequencyBodyAcc.Mean.Y
- - MeanFrequencyBodyAcc.Mean.Z
- - MeanFrequencyBodyAcc.MeanFrequency.X
- - MeanFrequencyBodyAcc.MeanFrequency.Y
- - MeanFrequencyBodyAcc.MeanFrequency.Z
- - MeanFrequencyBodyAccJerk.Mean.X
- - MeanFrequencyBodyAccJerk.Mean.Y
- - MeanFrequencyBodyAccJerk.Mean.Z
- - MeanFrequencyBodyAccJerk.MeanFrequency.X
- - MeanFrequencyBodyAccJerk.MeanFrequency.Y
- - MeanFrequencyBodyAccJerk.MeanFrequency.Z
- - MeanFrequencyBodyGyro.Mean.X
- - MeanFrequencyBodyGyro.Mean.Y
- - MeanFrequencyBodyGyro.Mean.Z
- - MeanFrequencyBodyGyro.MeanFrequency.X
- - MeanFrequencyBodyGyro.MeanFrequency.Y
- - MeanFrequencyBodyGyro.MeanFrequency.Z
- - MeanFrequencyBodyAccMag.Mean
- - MeanFrequencyBodyAccMag.MeanFrequency
- - MeanFrequencyBodyAccJerkMag.Mean
- - MeanFrequencyBodyAccJerkMag.MeanFrequency
- - MeanFrequencyBodyGyroMag.Mean
- - MeanFrequencyBodyGyroMag.MeanFrequency
- - MeanFrequencyBodyGyroJerkMag.Mean
- - MeanFrequencyBodyGyroJerkMag.MeanFrequency
- - MeanAngle.TimeBodyAccMean.Gravity
- - MeanAngle.TimeBodyAccJerkMean.GravityMean
- - MeanAngle.TimeBodyGyroMean.GravityMean
- - MeanAngle.TimeBodyGyroJerkMean.GravityMean
- - MeanAngle.X.GravityMean
- - MeanAngle.Y.GravityMean
- - MeanAngle.Z.GravityMean
- - MeanTimeBodyAcc.StdDev.X
- - MeanTimeBodyAcc.StdDev.Y
- - MeanTimeBodyAcc.StdDev.Z
- - MeanTimeGravityAcc.StdDev.X
- - MeanTimeGravityAcc.StdDev.Y
- - MeanTimeGravityAcc.StdDev.Z
- - MeanTimeBodyAccJerk.StdDev.X
- - MeanTimeBodyAccJerk.StdDev.Y
- - MeanTimeBodyAccJerk.StdDev.Z
- - MeanTimeBodyGyro.StdDev.X
- - MeanTimeBodyGyro.StdDev.Y
- - MeanTimeBodyGyro.StdDev.Z
- - MeanTimeBodyGyroJerk.StdDev.X
- - MeanTimeBodyGyroJerk.StdDev.Y
- - MeanTimeBodyGyroJerk.StdDev.Z
- - MeanTimeBodyAccMag.StdDev
- - MeanTimeGravityAccMag.StdDev
- - MeanTimeBodyAccJerkMag.StdDev
- - MeanTimeBodyGyroMag.StdDev
- - MeanTimeBodyGyroJerkMag.StdDev
- - MeanFrequencyBodyAcc.StdDev.X
- - MeanFrequencyBodyAcc.StdDev.Y
- - MeanFrequencyBodyAcc.StdDev.Z
- - MeanFrequencyBodyAccJerk.StdDev.X
- - MeanFrequencyBodyAccJerk.StdDev.Y
- - MeanFrequencyBodyAccJerk.StdDev.Z
- - MeanFrequencyBodyGyro.StdDev.X
- - MeanFrequencyBodyGyro.StdDev.Y
- - MeanFrequencyBodyGyro.StdDev.Z
- - MeanFrequencyBodyAccMag.StdDev
- - MeanFrequencyBodyAccJerkMag.StdDev
- - MeanFrequencyBodyGyroMag.StdDev
- - MeanFrequencyBodyGyroJerkMag.StdDev
+ - **List of variable names:**
+  - MeanTimeBodyAcc.Mean.X
+  - MeanTimeBodyAcc.Mean.Y
+  - MeanTimeBodyAcc.Mean.Z
+  - MeanTimeGravityAcc.Mean.X
+  - MeanTimeGravityAcc.Mean.Y
+  - MeanTimeGravityAcc.Mean.Z
+  - MeanTimeBodyAccJerk.Mean.X
+  - MeanTimeBodyAccJerk.Mean.Y
+  - MeanTimeBodyAccJerk.Mean.Z
+  - MeanTimeBodyGyro.Mean.X
+  - MeanTimeBodyGyro.Mean.Y
+  - MeanTimeBodyGyro.Mean.Z
+  - MeanTimeBodyGyroJerk.Mean.X
+  - MeanTimeBodyGyroJerk.Mean.Y
+  - MeanTimeBodyGyroJerk.Mean.Z
+  - MeanTimeBodyAccMag.Mean
+  - MeanTimeGravityAccMag.Mean
+  - MeanTimeBodyAccJerkMag.Mean
+  - MeanTimeBodyGyroMag.Mean
+  - MeanTimeBodyGyroJerkMag.Mean
+  - MeanFrequencyBodyAcc.Mean.X
+  - MeanFrequencyBodyAcc.Mean.Y
+  - MeanFrequencyBodyAcc.Mean.Z
+  - MeanFrequencyBodyAcc.MeanFrequency.X
+  - MeanFrequencyBodyAcc.MeanFrequency.Y
+  - MeanFrequencyBodyAcc.MeanFrequency.Z
+  - MeanFrequencyBodyAccJerk.Mean.X
+  - MeanFrequencyBodyAccJerk.Mean.Y
+  - MeanFrequencyBodyAccJerk.Mean.Z
+  - MeanFrequencyBodyAccJerk.MeanFrequency.X
+  - MeanFrequencyBodyAccJerk.MeanFrequency.Y
+  - MeanFrequencyBodyAccJerk.MeanFrequency.Z
+  - MeanFrequencyBodyGyro.Mean.X
+  - MeanFrequencyBodyGyro.Mean.Y
+  - MeanFrequencyBodyGyro.Mean.Z
+  - MeanFrequencyBodyGyro.MeanFrequency.X
+  - MeanFrequencyBodyGyro.MeanFrequency.Y
+  - MeanFrequencyBodyGyro.MeanFrequency.Z
+  - MeanFrequencyBodyAccMag.Mean
+  - MeanFrequencyBodyAccMag.MeanFrequency
+  - MeanFrequencyBodyAccJerkMag.Mean
+  - MeanFrequencyBodyAccJerkMag.MeanFrequency
+  - MeanFrequencyBodyGyroMag.Mean
+  - MeanFrequencyBodyGyroMag.MeanFrequency
+  - MeanFrequencyBodyGyroJerkMag.Mean
+  - MeanFrequencyBodyGyroJerkMag.MeanFrequency
+  - MeanAngle.TimeBodyAccMean.Gravity
+  - MeanAngle.TimeBodyAccJerkMean.GravityMean
+  - MeanAngle.TimeBodyGyroMean.GravityMean
+  - MeanAngle.TimeBodyGyroJerkMean.GravityMean
+  - MeanAngle.X.GravityMean
+  - MeanAngle.Y.GravityMean
+  - MeanAngle.Z.GravityMean
+  - MeanTimeBodyAcc.StdDev.X
+  - MeanTimeBodyAcc.StdDev.Y
+  - MeanTimeBodyAcc.StdDev.Z
+  - MeanTimeGravityAcc.StdDev.X
+  - MeanTimeGravityAcc.StdDev.Y
+  - MeanTimeGravityAcc.StdDev.Z
+  - MeanTimeBodyAccJerk.StdDev.X
+  - MeanTimeBodyAccJerk.StdDev.Y
+  - MeanTimeBodyAccJerk.StdDev.Z
+  - MeanTimeBodyGyro.StdDev.X
+  - MeanTimeBodyGyro.StdDev.Y
+  - MeanTimeBodyGyro.StdDev.Z
+  - MeanTimeBodyGyroJerk.StdDev.X
+  - MeanTimeBodyGyroJerk.StdDev.Y
+  - MeanTimeBodyGyroJerk.StdDev.Z
+  - MeanTimeBodyAccMag.StdDev
+  - MeanTimeGravityAccMag.StdDev
+  - MeanTimeBodyAccJerkMag.StdDev
+  - MeanTimeBodyGyroMag.StdDev
+  - MeanTimeBodyGyroJerkMag.StdDev
+  - MeanFrequencyBodyAcc.StdDev.X
+  - MeanFrequencyBodyAcc.StdDev.Y
+  - MeanFrequencyBodyAcc.StdDev.Z
+  - MeanFrequencyBodyAccJerk.StdDev.X
+  - MeanFrequencyBodyAccJerk.StdDev.Y
+  - MeanFrequencyBodyAccJerk.StdDev.Z
+  - MeanFrequencyBodyGyro.StdDev.X
+  - MeanFrequencyBodyGyro.StdDev.Y
+  - MeanFrequencyBodyGyro.StdDev.Z
+  - MeanFrequencyBodyAccMag.StdDev
+  - MeanFrequencyBodyAccJerkMag.StdDev
+  - MeanFrequencyBodyGyroMag.StdDev
+  - MeanFrequencyBodyGyroJerkMag.StdDev
