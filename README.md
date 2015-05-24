@@ -13,12 +13,12 @@ Additional files:
 
 **Step1 - Merge the training and the test datasets to create one data set**
 
-Create datasets:
-  - measures: lookup dataset; contains column names, applies to test/train datasets
-  - activities: lookup dataset; contains information on activities
-  - stest/strain: lookup datasets; contain volunteer identifiers
-  - ytest/ytrain: datasets; contain activity identifiers
-  - xtest/xtrain: datasets; contain measurement data
+ - Create datasets:
+   - measures: lookup dataset; contains column names, applies to test/train datasets
+   - activities: lookup dataset; contains information on activities
+   - stest/strain: lookup datasets; contain volunteer identifiers
+   - ytest/ytrain: datasets; contain activity identifiers
+   - xtest/xtrain: datasets; contain measurement data
 
   - Add column/variable names from measures dataset to the test/train datasets
   - Create the full test dataset to include: subject_id, activity_id, measures data
@@ -33,7 +33,7 @@ Create datasets:
   - Convert column names to valid column names based on principles that syntactically valid name consists of letters, numbers, dots, underline characters and starts with a letter or the dot not followed by a number
 eg: a bracket, hypen, comma are replaced with a dot
 
-**Step2 - Extracts only the measurements on the mean and standard deviation for each measurement**
+**Step2 - Extract only the measurements on the mean and standard deviation for each measurement**
 
   - Create a subset that includes subject_id, activity_id, and all 'mean' and 'standard deviation' variables. 
 I included all the columns with names containing 'mean' or 'std', as I believe this project is about transforming and cleaning datasets, and not about debating which measure should be included or not
