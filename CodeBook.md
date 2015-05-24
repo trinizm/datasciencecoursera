@@ -2,8 +2,8 @@
 
 ## Subject and Activity
 
- - `subject_id`: integer, range 1:30
- - `activity_name`: character, values:
+ - **`subject_id`**: integer, range 1:30
+ - **`activity_name`**: character, values:
   - WALKING
   - WALKING_UPSTAIRS
   - WALKING_DOWNSTAIRS
@@ -16,7 +16,7 @@
  - All variables are the mean (prefix 'Mean') of a measurement for each subject and activity.
  - All are normalized and bounded within [-1,1]
  - The convention for variable names is:
-  - `Mean{TimeOrFrequencyOrangle}{measurement}{.MeanOrStdDev}{.X,Y,Z}` where:
+  -**`Mean{TimeOrFrequencyOrAngle}{measurement}{.MeanOrStdDev}{.X,Y,Z}`** where:
   - 'Time' denotes 'time domain'
   - 'Frequency' denotes 'frequency domain'
   - 'Angle' denotes 'angular velocity'
