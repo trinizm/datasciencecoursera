@@ -37,7 +37,7 @@ eg: a bracket, hypen, comma are replaced with a dot
 
   - Create a subset that includes subject_id, activity_id, and all 'mean' and 'standard deviation' variables. 
 I included all the columns with names containing 'mean' or 'std', as I believe this project is about transforming and cleaning datasets, and not about debating which measure should be included or not
-  - 10299 rows, 88 columns
+   - 10299 rows, 88 columns
 
   - Further clean variable names:
 replace three/two dots with one dot; remove the very last dot; replace 'BodyBody' with 'Body'
@@ -45,15 +45,15 @@ replace three/two dots with one dot; remove the very last dot; replace 'BodyBody
 **Step3 - Use descriptive activity names to name the activities in the data set**
 
   - Create a new dataset that include column activity_name by merging activities lookup dataset with the full dataset
-  - 10299 rows, 89 columns
+   - 10299 rows, 89 columns
 
 **Step4 - Appropriately label the data set with descriptive variable names**
 
   - Used the following convertion to achieve a more descriptive column naming and used capital letters to separate words:
-  - 'f' -> 'Frequency'
-  - 't' -> 'Time'
-  - 'mean' -> 'Mean'
-  - 'std' -> 'StdDev'
+   - 'f' -> 'Frequency'
+   - 't' -> 'Time'
+   - 'mean' -> 'Mean'
+   - 'std' -> 'StdDev'
   - Did not convert the following: 'Acc', 'Gyro', 'Mag' as I believe the 'full' words are too long and would not contribute to a better description of the variable names
   - Did not remove some dots inside names as they may contribute to the variable name's meaning
 
@@ -64,6 +64,6 @@ replace three/two dots with one dot; remove the very last dot; replace 'BodyBody
   - There is a single row for each key
   - There is a single column for each measurement
   - Save final dataset as a txt file
-  - 10299 rows, 88 columns
+   - 10299 rows, 88 columns
   - Can be read into R with: read.table("dt_means.txt", header = T)
 
