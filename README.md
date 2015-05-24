@@ -14,23 +14,23 @@ Additional files:
 **Step1 - Merge the training and the test datasets to create one data set**
 
  - Create datasets:
-   - measures: lookup dataset; contains column names, applies to test/train datasets
-   - activities: lookup dataset; contains information on activities
-   - stest/strain: lookup datasets; contain volunteer identifiers
-   - ytest/ytrain: datasets; contain activity identifiers
-   - xtest/xtrain: datasets; contain measurement data
+  - measures: lookup dataset; contains column names, applies to test/train datasets
+  - activities: lookup dataset; contains information on activities
+  - stest/strain: lookup datasets; contain volunteer identifiers
+  - ytest/ytrain: datasets; contain activity identifiers
+  - xtest/xtrain: datasets; contain measurement data
 
-  - Add column/variable names from measures dataset to the test/train datasets
-  - Create the full test dataset to include: subject_id, activity_id, measures data
-   - 2947 rows, 563 columns
+ - Add column/variable names from measures dataset to the test/train datasets
+ - Create the full test dataset to include: subject_id, activity_id, measures data
+  - 2947 rows, 563 columns
 
-  - Create the full train dataset to include: subject_id, activity_id, measures data
-   - 7352 rows, 563 columns
+ - Create the full train dataset to include: subject_id, activity_id, measures data
+  - 7352 rows, 563 columns
 
-  - Merge the train and test datasets to create a full dataset
-   - 10299 rows, 563 columns
+ - Merge the train and test datasets to create a full dataset
+  - 10299 rows, 563 columns
 
-  - Convert column names to valid column names based on principles that syntactically valid name consists of letters, numbers, dots, underline characters and starts with a letter or the dot not followed by a number
+ - Convert column names to valid column names based on principles that syntactically valid name consists of letters, numbers, dots, underline characters and starts with a letter or the dot not followed by a number
 eg: a bracket, hypen, comma are replaced with a dot
 
 **Step2 - Extract only the measurements on the mean and standard deviation for each measurement**
