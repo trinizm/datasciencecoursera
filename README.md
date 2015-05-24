@@ -11,7 +11,7 @@ Additional files:
 
 ## Steps taken to Transform and Clean the initial datasets
 
- -- Step1 - Merge the training and the test datasets to create one data set
+   - Step1 - Merge the training and the test datasets to create one data set
 
 Create datasets:
   - measures: lookup dataset; contains column names, applies to test/train datasets
