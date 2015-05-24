@@ -64,6 +64,6 @@ replace three/two dots with one dot; remove the very last dot; replace 'BodyBody
   - There is a single row for each key
   - There is a single column for each measurement
   - Save final dataset as a txt file
-   - 10299 rows, 88 columns
+   - 180 rows, 88 columns
   - Can be read into R with: read.table("dt_means.txt", header = T)
 
