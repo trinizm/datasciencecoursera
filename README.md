@@ -1,11 +1,9 @@
 # datasciencecoursera
-#### A repository for the data scientist's course.
+## A repository for the data scientist's course.
 
-==============================================
 # C4 Exploratory Data Analysis
-Add files *plot.R* and *plot.png* to the repository
+**Add files `plot.R` and `plot.png` to the repository
 
-==============================================
 # C3 
 Tidy Data with Averages from the Human Activity Recognition Using Smartphones Dataset
 
