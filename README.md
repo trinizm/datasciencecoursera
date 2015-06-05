@@ -3,7 +3,7 @@
 
 ==============================================
 # C4 Exploratory Data Analysis
-Add files *plot[1-4].R* and *plot[1-4].png* to the repository
+Add files *plot.R* and *plot.png* to the repository
 
 ==============================================
 # C3 
